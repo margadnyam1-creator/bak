@@ -63,10 +63,15 @@ bak pull setup.py
 
 ## Installation
 
-```bash
-cp bak ~/tools/
-chmod +x ~/tools/bak
-echo 'export PATH="$HOME/tools:$PATH"' >> ~/.bashrc
+```git clone https://github.com/margadnyamnyam1-creator/bak.git
+cd bak
+
+chmod +x bak
+
+mkdir -p ~/.local/bin
+ln -s "$PWD/bak" ~/.local/bin/bak
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
