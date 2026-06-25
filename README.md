@@ -63,7 +63,8 @@ bak pull setup.py
 
 ## Installation
 
-```git clone https://github.com/margadnyamnyam1-creator/bak.git
+```
+git clone https://github.com/margadnyam1-creator/bak.git
 cd bak
 
 chmod +x bak
